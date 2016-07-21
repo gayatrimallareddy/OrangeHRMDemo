@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Successfully Logged In]]>
+    </line>
+    <line>
+      <![CDATA[Dashboard Is Verified.]]>
+    </line>
+    <line>
+      <![CDATA[Quick Launch Is Verified.]]>
+    </line>
+    <line>
+      <![CDATA[Employee Distribution by Subunit Is Verified.]]>
+    </line>
+    <line>
+      <![CDATA[Legend Is Verified.]]>
+    </line>
+    <line>
+      <![CDATA[Pending Leave Requests Is Verified.]]>
+    </line>
+    <line>
+      <![CDATA[Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User Successfully Logged In]]>
+    </line>
+    <line>
+      <![CDATA[Directory Is Verified.]]>
+    </line>
+    <line>
+      <![CDATA[Linda Anderson Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Robert Craig Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Steven Edwards Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Thomas Fleming Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Hannah Flores Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Fiona Grace Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Russel Hamilton Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Jasmine Morgan Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Praveen Narasappa Is Displayed As John Smith]]>
+    </line>
+    <line>
+      <![CDATA[John Smith Is Displayed As null]]>
+    </line>
+    <line>
+      <![CDATA[Name Has Been Entered.]]>
+    </line>
+    <line>
+      <![CDATA[Linda Anderson Has Been Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Search Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Reset Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[All Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Account Clerk Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[CEO Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Finance Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[HR Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[HR Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[IT Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[IT Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Sales Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Sales Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Title Has Been Selected.]]>
+    </line>
+    <line>
+      <![CDATA[Search Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Reset Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[All Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[  Canada Is Displayed As All]]>
+    </line>
+    <line>
+      <![CDATA[    Canadian Development Center Is Displayed As All]]>
+    </line>
+    <line>
+      <![CDATA[  United States Is Displayed As All]]>
+    </line>
+    <line>
+      <![CDATA[    HQ - CA, USA Is Displayed As All]]>
+    </line>
+    <line>
+      <![CDATA[    New York Sales Office Is Displayed As All]]>
+    </line>
+    <line>
+      <![CDATA[    Texas R&D Is Displayed As All]]>
+    </line>
+    <line>
+      <![CDATA[Location Has Been Selected.]]>
+    </line>
+    <line>
+      <![CDATA[Search Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Reset Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[All Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Account Clerk Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[CEO Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Finance Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[HR Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[HR Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[IT Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[IT Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Sales Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Sales Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Name Has Been Entered.]]>
+    </line>
+    <line>
+      <![CDATA[Linda Anderson Has Been Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Title Has Been Selected.]]>
+    </line>
+    <line>
+      <![CDATA[Search Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Reset Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[All Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Account Clerk Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[CEO Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Finance Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[HR Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[HR Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[IT Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[IT Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Sales Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Sales Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Title Has Been Selected.]]>
+    </line>
+    <line>
+      <![CDATA[Location Has Been Selected.]]>
+    </line>
+    <line>
+      <![CDATA[Reset Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[All Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Account Clerk Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[CEO Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Finance Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[HR Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[HR Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[IT Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[IT Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Sales Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Sales Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Name Has Been Entered.]]>
+    </line>
+    <line>
+      <![CDATA[Linda Anderson Has Been Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Location Has Been Selected.]]>
+    </line>
+    <line>
+      <![CDATA[Search Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[Reset Button Clicked]]>
+    </line>
+    <line>
+      <![CDATA[All Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Account Clerk Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[CEO Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Finance Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[HR Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[HR Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[IT Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[IT Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Sales Executive Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Sales Manager Is Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Name Has Been Entered.]]>
+    </line>
+    <line>
+      <![CDATA[Linda Anderson Has Been Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[Title Has Been Selected.]]>
+    </line>
+    <line>
+      <![CDATA[Location Has Been Selected.]]>
+    </line>
+    <line>
+      <![CDATA[Search Button Clicked]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="91129" started-at="2016-07-20T05:46:12Z" finished-at="2016-07-20T05:47:43Z">
+    <groups>
+    </groups>
+    <test name="DashBoardTest" duration-ms="25457" started-at="2016-07-20T05:46:12Z" finished-at="2016-07-20T05:46:37Z">
+      <class name="orange_hrm_tests.Dashboard_Legend_Verification">
+        <test-method status="PASS" signature="legendVerification()[pri:0, instance:orange_hrm_tests.Dashboard_Legend_Verification@aaf2ef]" name="legendVerification" duration-ms="25430" started-at="2016-07-20T11:16:12Z" finished-at="2016-07-20T11:16:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Successfully Logged In]]>
+            </line>
+            <line>
+              <![CDATA[Dashboard Is Verified.]]>
+            </line>
+            <line>
+              <![CDATA[Quick Launch Is Verified.]]>
+            </line>
+            <line>
+              <![CDATA[Employee Distribution by Subunit Is Verified.]]>
+            </line>
+            <line>
+              <![CDATA[Legend Is Verified.]]>
+            </line>
+            <line>
+              <![CDATA[Pending Leave Requests Is Verified.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- legendVerification -->
+      </class> <!-- orange_hrm_tests.Dashboard_Legend_Verification -->
+    </test> <!-- DashBoardTest -->
+    <test name="DirectoryTest" duration-ms="65617" started-at="2016-07-20T05:46:37Z" finished-at="2016-07-20T05:47:43Z">
+      <class name="orange_hrm_tests.Directory_Search">
+        <test-method status="PASS" signature="searchByName()[pri:1, instance:orange_hrm_tests.Directory_Search@133fe5d]" name="searchByName" duration-ms="24394" started-at="2016-07-20T11:16:37Z" finished-at="2016-07-20T11:17:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Launched Successfully]]>
+            </line>
+            <line>
+              <![CDATA[User Successfully Logged In]]>
+            </line>
+            <line>
+              <![CDATA[Directory Is Verified.]]>
+            </line>
+            <line>
+              <![CDATA[Linda Anderson Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Robert Craig Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Steven Edwards Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Thomas Fleming Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Hannah Flores Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Fiona Grace Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Russel Hamilton Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Jasmine Morgan Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Praveen Narasappa Is Displayed As John Smith]]>
+            </line>
+            <line>
+              <![CDATA[John Smith Is Displayed As null]]>
+            </line>
+            <line>
+              <![CDATA[Name Has Been Entered.]]>
+            </line>
+            <line>
+              <![CDATA[Linda Anderson Has Been Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Search Button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchByName -->
+        <test-method status="PASS" signature="searchByTitle()[pri:2, instance:orange_hrm_tests.Directory_Search@133fe5d]" name="searchByTitle" duration-ms="8124" started-at="2016-07-20T11:17:02Z" finished-at="2016-07-20T11:17:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reset Button Clicked]]>
+            </line>
+            <line>
+              <![CDATA[All Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Account Clerk Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[CEO Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Finance Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[HR Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[HR Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[IT Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[IT Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Sales Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Sales Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Title Has Been Selected.]]>
+            </line>
+            <line>
+              <![CDATA[Search Button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchByTitle -->
+        <test-method status="PASS" signature="searchByLocation()[pri:3, instance:orange_hrm_tests.Directory_Search@133fe5d]" name="searchByLocation" duration-ms="7740" started-at="2016-07-20T11:17:10Z" finished-at="2016-07-20T11:17:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reset Button Clicked]]>
+            </line>
+            <line>
+              <![CDATA[All Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[  Canada Is Displayed As All]]>
+            </line>
+            <line>
+              <![CDATA[    Canadian Development Center Is Displayed As All]]>
+            </line>
+            <line>
+              <![CDATA[  United States Is Displayed As All]]>
+            </line>
+            <line>
+              <![CDATA[    HQ - CA, USA Is Displayed As All]]>
+            </line>
+            <line>
+              <![CDATA[    New York Sales Office Is Displayed As All]]>
+            </line>
+            <line>
+              <![CDATA[    Texas R&D Is Displayed As All]]>
+            </line>
+            <line>
+              <![CDATA[Location Has Been Selected.]]>
+            </line>
+            <line>
+              <![CDATA[Search Button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchByLocation -->
+        <test-method status="PASS" signature="searchByNameTitle()[pri:4, instance:orange_hrm_tests.Directory_Search@133fe5d]" name="searchByNameTitle" duration-ms="5724" started-at="2016-07-20T11:17:17Z" finished-at="2016-07-20T11:17:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reset Button Clicked]]>
+            </line>
+            <line>
+              <![CDATA[All Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Account Clerk Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[CEO Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Finance Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[HR Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[HR Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[IT Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[IT Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Sales Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Sales Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Name Has Been Entered.]]>
+            </line>
+            <line>
+              <![CDATA[Linda Anderson Has Been Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Title Has Been Selected.]]>
+            </line>
+            <line>
+              <![CDATA[Search Button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchByNameTitle -->
+        <test-method status="PASS" signature="searchByTitleLocation()[pri:5, instance:orange_hrm_tests.Directory_Search@133fe5d]" name="searchByTitleLocation" duration-ms="5616" started-at="2016-07-20T11:17:23Z" finished-at="2016-07-20T11:17:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reset Button Clicked]]>
+            </line>
+            <line>
+              <![CDATA[All Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Account Clerk Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[CEO Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Finance Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[HR Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[HR Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[IT Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[IT Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Sales Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Sales Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Title Has Been Selected.]]>
+            </line>
+            <line>
+              <![CDATA[Location Has Been Selected.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchByTitleLocation -->
+        <test-method status="PASS" signature="searchByNameLocation()[pri:6, instance:orange_hrm_tests.Directory_Search@133fe5d]" name="searchByNameLocation" duration-ms="7074" started-at="2016-07-20T11:17:29Z" finished-at="2016-07-20T11:17:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reset Button Clicked]]>
+            </line>
+            <line>
+              <![CDATA[All Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Account Clerk Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[CEO Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Finance Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[HR Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[HR Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[IT Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[IT Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Sales Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Sales Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Name Has Been Entered.]]>
+            </line>
+            <line>
+              <![CDATA[Linda Anderson Has Been Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Location Has Been Selected.]]>
+            </line>
+            <line>
+              <![CDATA[Search Button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchByNameLocation -->
+        <test-method status="PASS" signature="searchByNameTitleLocation()[pri:7, instance:orange_hrm_tests.Directory_Search@133fe5d]" name="searchByNameTitleLocation" duration-ms="6944" started-at="2016-07-20T11:17:36Z" finished-at="2016-07-20T11:17:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Reset Button Clicked]]>
+            </line>
+            <line>
+              <![CDATA[All Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Account Clerk Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[CEO Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Finance Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[HR Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[HR Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[IT Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[IT Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Sales Executive Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Sales Manager Is Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Name Has Been Entered.]]>
+            </line>
+            <line>
+              <![CDATA[Linda Anderson Has Been Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[Title Has Been Selected.]]>
+            </line>
+            <line>
+              <![CDATA[Location Has Been Selected.]]>
+            </line>
+            <line>
+              <![CDATA[Search Button Clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchByNameTitleLocation -->
+      </class> <!-- orange_hrm_tests.Directory_Search -->
+    </test> <!-- DirectoryTest -->
+  </suite> <!-- Suite -->
+</testng-results>

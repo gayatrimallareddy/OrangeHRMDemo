@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="DashBoardTest">
+    <classes>
+      <class name="orange_hrm_tests.Dashboard_Legend_Verification"/>
+    </classes>
+  </test> <!-- DashBoardTest -->
+  <test name="DirectoryTest">
+    <classes>
+      <class name="orange_hrm_tests.Directory_Search"/>
+    </classes>
+  </test> <!-- DirectoryTest -->
+</suite> <!-- Suite -->

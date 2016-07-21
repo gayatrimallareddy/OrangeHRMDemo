@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\Selenium_Scripts\Demo-OrangeHRM\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orange_hrm_tests.Dashboard_Legend_Verification" hash-for-method="legendVerification">legendVerification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orange_hrm_tests.Directory_Search" hash-for-method="searchByLocation">searchByLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orange_hrm_tests.Directory_Search" hash-for-method="searchByName">searchByName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orange_hrm_tests.Directory_Search" hash-for-method="searchByNameLocation">searchByNameLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orange_hrm_tests.Directory_Search" hash-for-method="searchByNameTitle">searchByNameTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orange_hrm_tests.Directory_Search" hash-for-method="searchByNameTitleLocation">searchByNameTitleLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orange_hrm_tests.Directory_Search" hash-for-method="searchByTitle">searchByTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="orange_hrm_tests.Directory_Search" hash-for-method="searchByTitleLocation">searchByTitleLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">orange_hrm_tests.Dashboard_Legend_Verification</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="legendVerification">
+                  </a> <!-- legendVerification -->
+                  <span class="method-name">legendVerification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">orange_hrm_tests.Directory_Search</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByLocation">
+                  </a> <!-- searchByLocation -->
+                  <span class="method-name">searchByLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByName">
+                  </a> <!-- searchByName -->
+                  <span class="method-name">searchByName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByNameLocation">
+                  </a> <!-- searchByNameLocation -->
+                  <span class="method-name">searchByNameLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByNameTitle">
+                  </a> <!-- searchByNameTitle -->
+                  <span class="method-name">searchByNameTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByNameTitleLocation">
+                  </a> <!-- searchByNameTitleLocation -->
+                  <span class="method-name">searchByNameTitleLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByTitle">
+                  </a> <!-- searchByTitle -->
+                  <span class="method-name">searchByTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchByTitleLocation">
+                  </a> <!-- searchByTitleLocation -->
+                  <span class="method-name">searchByTitleLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Selenium_Scripts\Demo-OrangeHRM\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;DashBoardTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;orange_hrm_tests.Dashboard_Legend_Verification&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DashBoardTest --&gt;
+  &lt;test name=&quot;DirectoryTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;orange_hrm_tests.Directory_Search&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DirectoryTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">DashBoardTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DirectoryTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'legendVerification')
+data.setCell(0, 2, 'orange_hrm_tests.Dashboard_Legend_Verification')
+data.setCell(0, 3, 25430);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchByName')
+data.setCell(1, 2, 'orange_hrm_tests.Directory_Search')
+data.setCell(1, 3, 24394);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'searchByTitle')
+data.setCell(2, 2, 'orange_hrm_tests.Directory_Search')
+data.setCell(2, 3, 8124);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'searchByLocation')
+data.setCell(3, 2, 'orange_hrm_tests.Directory_Search')
+data.setCell(3, 3, 7740);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchByNameLocation')
+data.setCell(4, 2, 'orange_hrm_tests.Directory_Search')
+data.setCell(4, 3, 7074);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'searchByNameTitleLocation')
+data.setCell(5, 2, 'orange_hrm_tests.Directory_Search')
+data.setCell(5, 3, 6944);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'searchByNameTitle')
+data.setCell(6, 2, 'orange_hrm_tests.Directory_Search')
+data.setCell(6, 3, 5724);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchByTitleLocation')
+data.setCell(7, 2, 'orange_hrm_tests.Directory_Search')
+data.setCell(7, 3, 5616);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">legendVerification</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Launched Successfully</span>
+                <span class="reporter-method-output">User Successfully Logged In</span>
+                <span class="reporter-method-output">Dashboard Is Verified.</span>
+                <span class="reporter-method-output">Quick Launch Is Verified.</span>
+                <span class="reporter-method-output">Employee Distribution by Subunit Is Verified.</span>
+                <span class="reporter-method-output">Legend Is Verified.</span>
+                <span class="reporter-method-output">Pending Leave Requests Is Verified.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchByNameLocation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Reset Button Clicked</span>
+                <span class="reporter-method-output">All Is Displayed.</span>
+                <span class="reporter-method-output">Account Clerk Is Displayed.</span>
+                <span class="reporter-method-output">CEO Is Displayed.</span>
+                <span class="reporter-method-output">Finance Manager Is Displayed.</span>
+                <span class="reporter-method-output">HR Executive Is Displayed.</span>
+                <span class="reporter-method-output">HR Manager Is Displayed.</span>
+                <span class="reporter-method-output">IT Executive Is Displayed.</span>
+                <span class="reporter-method-output">IT Manager Is Displayed.</span>
+                <span class="reporter-method-output">Sales Executive Is Displayed.</span>
+                <span class="reporter-method-output">Sales Manager Is Displayed.</span>
+                <span class="reporter-method-output">Name Has Been Entered.</span>
+                <span class="reporter-method-output">Linda Anderson Has Been Displayed.</span>
+                <span class="reporter-method-output">Location Has Been Selected.</span>
+                <span class="reporter-method-output">Search Button Clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchByNameTitleLocation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Reset Button Clicked</span>
+                <span class="reporter-method-output">All Is Displayed.</span>
+                <span class="reporter-method-output">Account Clerk Is Displayed.</span>
+                <span class="reporter-method-output">CEO Is Displayed.</span>
+                <span class="reporter-method-output">Finance Manager Is Displayed.</span>
+                <span class="reporter-method-output">HR Executive Is Displayed.</span>
+                <span class="reporter-method-output">HR Manager Is Displayed.</span>
+                <span class="reporter-method-output">IT Executive Is Displayed.</span>
+                <span class="reporter-method-output">IT Manager Is Displayed.</span>
+                <span class="reporter-method-output">Sales Executive Is Displayed.</span>
+                <span class="reporter-method-output">Sales Manager Is Displayed.</span>
+                <span class="reporter-method-output">Name Has Been Entered.</span>
+                <span class="reporter-method-output">Linda Anderson Has Been Displayed.</span>
+                <span class="reporter-method-output">Title Has Been Selected.</span>
+                <span class="reporter-method-output">Location Has Been Selected.</span>
+                <span class="reporter-method-output">Search Button Clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchByNameTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Reset Button Clicked</span>
+                <span class="reporter-method-output">All Is Displayed.</span>
+                <span class="reporter-method-output">Account Clerk Is Displayed.</span>
+                <span class="reporter-method-output">CEO Is Displayed.</span>
+                <span class="reporter-method-output">Finance Manager Is Displayed.</span>
+                <span class="reporter-method-output">HR Executive Is Displayed.</span>
+                <span class="reporter-method-output">HR Manager Is Displayed.</span>
+                <span class="reporter-method-output">IT Executive Is Displayed.</span>
+                <span class="reporter-method-output">IT Manager Is Displayed.</span>
+                <span class="reporter-method-output">Sales Executive Is Displayed.</span>
+                <span class="reporter-method-output">Sales Manager Is Displayed.</span>
+                <span class="reporter-method-output">Name Has Been Entered.</span>
+                <span class="reporter-method-output">Linda Anderson Has Been Displayed.</span>
+                <span class="reporter-method-output">Title Has Been Selected.</span>
+                <span class="reporter-method-output">Search Button Clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchByLocation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Reset Button Clicked</span>
+                <span class="reporter-method-output">All Is Displayed.</span>
+                <span class="reporter-method-output">  Canada Is Displayed As All</span>
+                <span class="reporter-method-output">    Canadian Development Center Is Displayed As All</span>
+                <span class="reporter-method-output">  United States Is Displayed As All</span>
+                <span class="reporter-method-output">    HQ - CA, USA Is Displayed As All</span>
+                <span class="reporter-method-output">    New York Sales Office Is Displayed As All</span>
+                <span class="reporter-method-output">    Texas R&D Is Displayed As All</span>
+                <span class="reporter-method-output">Location Has Been Selected.</span>
+                <span class="reporter-method-output">Search Button Clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchByTitleLocation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Reset Button Clicked</span>
+                <span class="reporter-method-output">All Is Displayed.</span>
+                <span class="reporter-method-output">Account Clerk Is Displayed.</span>
+                <span class="reporter-method-output">CEO Is Displayed.</span>
+                <span class="reporter-method-output">Finance Manager Is Displayed.</span>
+                <span class="reporter-method-output">HR Executive Is Displayed.</span>
+                <span class="reporter-method-output">HR Manager Is Displayed.</span>
+                <span class="reporter-method-output">IT Executive Is Displayed.</span>
+                <span class="reporter-method-output">IT Manager Is Displayed.</span>
+                <span class="reporter-method-output">Sales Executive Is Displayed.</span>
+                <span class="reporter-method-output">Sales Manager Is Displayed.</span>
+                <span class="reporter-method-output">Title Has Been Selected.</span>
+                <span class="reporter-method-output">Location Has Been Selected.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchByTitle</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Reset Button Clicked</span>
+                <span class="reporter-method-output">All Is Displayed.</span>
+                <span class="reporter-method-output">Account Clerk Is Displayed.</span>
+                <span class="reporter-method-output">CEO Is Displayed.</span>
+                <span class="reporter-method-output">Finance Manager Is Displayed.</span>
+                <span class="reporter-method-output">HR Executive Is Displayed.</span>
+                <span class="reporter-method-output">HR Manager Is Displayed.</span>
+                <span class="reporter-method-output">IT Executive Is Displayed.</span>
+                <span class="reporter-method-output">IT Manager Is Displayed.</span>
+                <span class="reporter-method-output">Sales Executive Is Displayed.</span>
+                <span class="reporter-method-output">Sales Manager Is Displayed.</span>
+                <span class="reporter-method-output">Title Has Been Selected.</span>
+                <span class="reporter-method-output">Search Button Clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchByName</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Launched Successfully</span>
+                <span class="reporter-method-output">User Successfully Logged In</span>
+                <span class="reporter-method-output">Directory Is Verified.</span>
+                <span class="reporter-method-output">Linda Anderson Is Displayed.</span>
+                <span class="reporter-method-output">Robert Craig Is Displayed.</span>
+                <span class="reporter-method-output">Steven Edwards Is Displayed.</span>
+                <span class="reporter-method-output">Thomas Fleming Is Displayed.</span>
+                <span class="reporter-method-output">Hannah Flores Is Displayed.</span>
+                <span class="reporter-method-output">Fiona Grace Is Displayed.</span>
+                <span class="reporter-method-output">Russel Hamilton Is Displayed.</span>
+                <span class="reporter-method-output">Jasmine Morgan Is Displayed.</span>
+                <span class="reporter-method-output">Praveen Narasappa Is Displayed As John Smith</span>
+                <span class="reporter-method-output">John Smith Is Displayed As null</span>
+                <span class="reporter-method-output">Name Has Been Entered.</span>
+                <span class="reporter-method-output">Linda Anderson Has Been Displayed.</span>
+                <span class="reporter-method-output">Search Button Clicked</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">orange_hrm_tests.Dashboard_Legend_Verification</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">legendVerification</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">orange_hrm_tests.Directory_Search</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchByName</span>
+                <span class="method-start">25487 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchByTitle</span>
+                <span class="method-start">49881 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchByLocation</span>
+                <span class="method-start">58005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchByNameTitle</span>
+                <span class="method-start">65745 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchByTitleLocation</span>
+                <span class="method-start">71469 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchByNameLocation</span>
+                <span class="method-start">77085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchByNameTitleLocation</span>
+                <span class="method-start">84159 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

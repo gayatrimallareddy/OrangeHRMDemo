@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="DashBoardTest(failed)">
+    <classes>
+      <class name="orange_hrm_tests.Dashboard_Legend_Verification">
+        <methods>
+          <include name="legendVerification"/>
+        </methods>
+      </class> <!-- orange_hrm_tests.Dashboard_Legend_Verification -->
+    </classes>
+  </test> <!-- DashBoardTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
